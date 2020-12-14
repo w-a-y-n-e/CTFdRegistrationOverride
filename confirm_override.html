@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block content %}
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Confirm</h1>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				{% include "components/errors.html" %}
+
+				<h3 class="text-center">
+					Registration submitted
+				</h3>
+
+				<br>
+
+				<h4 class="text-center">
+					Please contact an administrator to activate your account.
+				</h4>
+
+				<hr>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
+
